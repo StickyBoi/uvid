@@ -1,0 +1,19 @@
+{
+  "name": "uvid",
+  "version": "1.0.0",
+  "description": "Final exam for advanced web class",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node \"src/app.js\"",
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
